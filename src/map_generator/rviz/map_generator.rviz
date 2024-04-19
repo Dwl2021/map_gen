@@ -5,6 +5,7 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
+        - /Grid1
       Splitter Ratio: 0.5
     Tree Height: 549
   - Class: rviz/Selection
@@ -47,7 +48,7 @@ Visualization Manager:
         Y: 0
         Z: 0
       Plane: XY
-      Plane Cell Count: 10
+      Plane Cell Count: 40
       Reference Frame: <Fixed Frame>
       Value: true
     - Alpha: 1
@@ -83,7 +84,7 @@ Visualization Manager:
     Background Color: 238; 238; 236
     Default Light: true
     Fixed Frame: world
-    Frame Rate: 30
+    Frame Rate: 29
   Name: root
   Tools:
     - Class: rviz/Interact
@@ -106,7 +107,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 15.692626953125
+      Distance: 52.26319885253906
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -122,9 +123,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.4097964763641357
+      Pitch: 1.4847966432571411
       Target Frame: <Fixed Frame>
-      Yaw: 6.273580551147461
+      Yaw: 6.263580799102783
     Saved: ~
 Window Geometry:
   Displays:
