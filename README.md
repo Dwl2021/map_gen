@@ -6,6 +6,6 @@ use `2D Nav Goal` to draw the map
 
 save the map
 ```shell
-./save
+./save.sh
 ```
 
