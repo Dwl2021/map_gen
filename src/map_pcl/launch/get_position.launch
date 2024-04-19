@@ -1,0 +1,13 @@
+<launch>
+    <!-- waypoint callback -->
+    <node pkg="waypoint_generator" name="waypoint_generator" type="waypoint_generator" output="screen">
+      <remap from="~goal" to="/goal"/>
+      <param name="waypoint_type" value="manual-lonely-waypoint"/>    
+    </node>
+
+    <node name="pcd_to_pointcloud" pkg="map_pcl" type="pcd_to_pointcloud" output="screen">
+    </node>
+
+    <!-- rviz -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find map_pcl)/config/get_position.rviz" output="screen" />
+</launch>
