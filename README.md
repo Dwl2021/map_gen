@@ -37,7 +37,5 @@ you can modify the parameter in the `~/map_gen/src/map_generator/launch/map_gene
 
 <param name="frame" value="world" />
 <remap from="/click_map" to="/map_generator/click_map"/>
-=======
->>>>>>> 353da63e9ba3a072d3bdaee412d54af8055b9857
 ```
 
