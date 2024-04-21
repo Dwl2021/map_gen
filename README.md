@@ -19,6 +19,8 @@ After finishing the map drawing, you can save the map with the following order,
 
 then the pcd file will save to `~/tmp.pcd`
 
+
+
 ## Parameter
 
 you can modify the parameter in the `~/map_gen/src/map_generator/launch/map_generator.launch`
@@ -35,5 +37,7 @@ you can modify the parameter in the `~/map_gen/src/map_generator/launch/map_gene
 
 <param name="frame" value="world" />
 <remap from="/click_map" to="/map_generator/click_map"/>
+=======
+>>>>>>> 353da63e9ba3a072d3bdaee412d54af8055b9857
 ```
 
