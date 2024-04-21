@@ -3,9 +3,9 @@
         <param name="~width" value="0.15"/>
         <param name="~height" value="2.4"/>
 
-        <param name="~step_length" value="0.1"/>
-        <param name="~step_width" value="0.1"/>
-        <param name="~step_height" value="0.1"/>
+        <param name="~step_length" value="0.05"/>
+        <param name="~step_width" value="0.05"/>
+        <param name="~step_height" value="0.02"/>
         <param name="frame" value="world" />
         <remap from="/click_map" to="/map_generator/click_map"/>
     </node>

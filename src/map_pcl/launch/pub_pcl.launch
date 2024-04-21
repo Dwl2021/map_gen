@@ -1,7 +1,0 @@
-<launch>
-    <node name="pcd_to_pointcloud" pkg="map_pcl" type="pcd_to_pointcloud" output="screen">
-        <param name="~pcd_file_path" value="$(find map_pcl)/pcd/map.pcd"/>
-        <param name="~frame_id" value="world_enu"/>
-        <remap from="global_map" to="/global_map"/>
-    </node>
-</launch>
