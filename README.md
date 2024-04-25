@@ -17,7 +17,7 @@ After finishing the map drawing, you can save the map with the following order,
 ./save.sh
 ```
 
-then the pcd file will save to `~/tmp.pcd`
+then the pcd file will save to `~/res.pcd`
 
 
 
@@ -39,3 +39,6 @@ you can modify the parameter in the `~/map_gen/src/map_generator/launch/map_gene
 <remap from="/click_map" to="/map_generator/click_map"/>
 ```
 
+## Reference 
+
+This project was inspired by [FUEL](https://github.com/HKUST-Aerial-Robotics/FUEL.git).
