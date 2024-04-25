@@ -9,7 +9,9 @@ Then `rviz` will start, and you can use `2D Nav Goal` to set the position of poi
 
 
 
-## Save the cloud
+## Features
+
+### Save
 
 After finishing the map drawing, you can save the map with the following order,
 
@@ -18,6 +20,17 @@ After finishing the map drawing, you can save the map with the following order,
 ```
 
 then the pcd file will save to `~/res.pcd`
+
+### undo
+```shell
+./undo.sh
+```
+
+### clear
+```shell
+./clear.sh
+```
+
 
 
 
@@ -38,6 +51,10 @@ you can modify the parameter in the `~/map_gen/src/map_generator/launch/map_gene
 <param name="frame" value="world" />
 <remap from="/click_map" to="/map_generator/click_map"/>
 ```
+
+## How to use
+<img src="./misc/how_to_use_it.gif" alt="how_to_use" width="100%">
+
 
 ## Reference 
 
