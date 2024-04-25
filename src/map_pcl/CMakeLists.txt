@@ -22,11 +22,11 @@ include_directories(
   ${PCL_INCLUDE_DIRS}
 )
 
-add_executable(pcd_to_pointcloud
-  src/pcd_to_pointcloud.cpp
+add_executable(visual_pcl
+  src/visual_pcl.cpp
 )
 
-target_link_libraries(pcd_to_pointcloud
+target_link_libraries(visual_pcl
   ${catkin_LIBRARIES}
   ${PCL_LIBRARIES}
 )

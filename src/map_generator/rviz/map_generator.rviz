@@ -3,9 +3,7 @@ Panels:
     Help Height: 78
     Name: Displays
     Property Tree Widget:
-      Expanded:
-        - /Global Options1
-        - /Grid1
+      Expanded: ~
       Splitter Ratio: 0.5
     Tree Height: 549
   - Class: rviz/Selection
@@ -123,9 +121,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.484796404838562
+      Pitch: 1.5397963523864746
       Target Frame: <Fixed Frame>
-      Yaw: 3.143575429916382
+      Yaw: 3.1435763835906982
     Saved: ~
 Window Geometry:
   Displays:
@@ -143,5 +141,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1200
-  X: 60
-  Y: 27
+  X: 558
+  Y: 274

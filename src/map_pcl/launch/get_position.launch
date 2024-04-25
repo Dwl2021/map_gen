@@ -1,11 +1,9 @@
 <launch>
-    <!-- waypoint callback -->
-    <node pkg="waypoint_generator" name="waypoint_generator" type="waypoint_generator" output="screen">
-      <remap from="~goal" to="/goal"/>
-      <param name="waypoint_type" value="manual-lonely-waypoint"/>    
-    </node>
+    <node name="visual_pcl" pkg="map_pcl" type="visual_pcl" output="screen">
+      <remap from="global_map" to="/global_map" />
+      <param name="frame_id" type="string" value="world"/>
+      <param name="pcd_file_path" type="string" value="$(find map_pcl)/pcd/map.pcd"/>
 
-    <node name="pcd_to_pointcloud" pkg="map_pcl" type="pcd_to_pointcloud" output="screen">
     </node>
 
     <!-- rviz -->

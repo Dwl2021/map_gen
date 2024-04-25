@@ -8,6 +8,8 @@
         <param name="~step_height" value="0.02"/>
         <param name="frame" value="world" />
         <remap from="/click_map" to="/map_generator/click_map"/>
+        <remap from="/undo" to="/map_generator/undo"/>
+        <remap from="/clear" to="/map_generator/clear"/>
     </node>
 
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find map_generator)/rviz/map_generator.rviz"/>
