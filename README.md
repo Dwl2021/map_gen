@@ -31,6 +31,15 @@ then the pcd file will save to `~/res.pcd`
 ./clear.sh
 ```
 
+### reference
+it is hard to loacate the coordinate of the point, so you can modify `reference_points.py` and then run
+
+```
+python3 reference_points.py
+```
+
+to publish the reference points
+
 
 
 

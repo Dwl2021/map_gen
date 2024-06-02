@@ -77,6 +77,14 @@ Visualization Manager:
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: reference_points
+      Name: Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 238; 238; 236
@@ -142,4 +150,4 @@ Window Geometry:
     collapsed: false
   Width: 1200
   X: 558
-  Y: 274
+  Y: 237
