@@ -30,7 +30,13 @@ target_link_libraries(click_map
   ${catkin_LIBRARIES}
   ${PCL_LIBRARIES}) 
 
+add_executable (click_map_v2 src/click_map_v2.cpp  )
+target_link_libraries(click_map_v2
+  ${catkin_LIBRARIES}
+  ${PCL_LIBRARIES})
+
 add_executable (map_recorder src/map_recorder.cpp )
 target_link_libraries(map_recorder
   ${catkin_LIBRARIES}
   ${PCL_LIBRARIES})
+

@@ -1,0 +1,19 @@
+<launch>
+  <node name="map_generator" pkg="map_generator" type="click_map_v2">
+    <param name="~length" value="2.0" />
+    <param name="~width" value="2.0" />
+    <param name="~height" value="3.5" />
+
+    <param name="~step_length" value="0.05" />
+    <param name="~step_width" value="0.05" />
+    <param name="~step_height" value="0.02" />
+    <param name="frame" value="world" />
+    <remap from="/click_map" to="/map_generator/click_map" />
+    <remap from="/undo" to="/map_generator/undo" />
+    <remap from="/clear" to="/map_generator/clear" />
+  </node>
+
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find map_generator)/rviz/map_generator.rviz" />
+
+</launch>
