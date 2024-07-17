@@ -1,4 +1,6 @@
 ## Quick Start
+**Now we two version:1.0 and 2.0.** We introduce version 1.0 firstly and the version 2.0 will be shown in section ##Version2.0
+
 You can run this project with the following command:
 
 ```shell
@@ -61,8 +63,28 @@ you can modify the parameter in the `~/map_gen/src/map_generator/launch/map_gene
 <remap from="/click_map" to="/map_generator/click_map"/>
 ```
 
-## How to use
+## Example
 <img src="./misc/how_to_use_it.gif" alt="how_to_use" width="100%">
+
+
+## VERSION2
+### Quick Start
+```
+./v2_run.sh
+```
+
+### Feature
+It is very similar to v1.0. 
+
+If you want to publish some reference points, such as the coordinates (0,0) and (0,50), you can modify the file reference.py and then run:
+```
+python3 reference.py
+```
+
+### Example
+
+<img src="./misc/example2.gif" alt="how_to_use2" width="100%">
+
 
 
 ## Reference 
