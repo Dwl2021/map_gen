@@ -56,7 +56,7 @@ void gen_pcl(double length, double width, double height, double step_length,
              double step_width, double step_height, Eigen::Vector3d origin,
              pcl::PointCloud<pcl::PointXYZ> &cloud) {
   pcl::PointXYZ pt;
-  int radio = 0.05;
+  int radio = 0.3;
   int num_steps_length = static_cast<int>(std::ceil(length / step_length));
   int num_steps_width = static_cast<int>(std::ceil(width / step_width));
   int num_steps_height = static_cast<int>(std::ceil(height / step_height));
