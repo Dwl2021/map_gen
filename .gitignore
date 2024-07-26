@@ -2,3 +2,4 @@ build/
 devel/
 logs/
 .catkin*
+.DS_Store
