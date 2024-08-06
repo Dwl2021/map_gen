@@ -1,8 +1,8 @@
 <launch>
   <node name="map_generator" pkg="map_generator" type="click_map_v2">
-    <param name="~length" value="2.0" />
-    <param name="~width" value="2.0" />
-    <param name="~height" value="3.5" />
+    <param name="~length" value="1.0" />
+    <param name="~width" value="1.0" />
+    <param name="~height" value="2.5" />
 
     <param name="~step_length" value="0.05" />
     <param name="~step_width" value="0.05" />

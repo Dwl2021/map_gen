@@ -5,8 +5,10 @@ from visualization_msgs.msg import Marker
 from geometry_msgs.msg import Point
 
 points = [
+    [5, 3],
     [0, 0],
-    [30, 0]
+    [-5, 3],
+    [-5, -3]
 ]
 
 def publish_points(points):
@@ -22,8 +24,8 @@ def publish_points(points):
     marker.type = Marker.POINTS
     marker.action = Marker.ADD
     marker.pose.orientation.w = 1.0
-    marker.scale.x = 1
-    marker.scale.y = 1
+    marker.scale.x = 0.5
+    marker.scale.y = 0.5
     marker.color.r = 1.0
     marker.color.g = 0.0
     marker.color.b = 0.0
